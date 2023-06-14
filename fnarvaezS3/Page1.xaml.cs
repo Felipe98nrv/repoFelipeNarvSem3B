@@ -22,6 +22,7 @@ namespace fnarvaezS3
             string dato1=txtdatouno.Text;
             double dato2=Convert.ToDouble(txtdatodos.Text);
 
+            //NAVEGACION
             Navigation.PushAsync(new Page2(dato1, dato2));
 
         }
